@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales (Virtual Environments) ---
+# Es muy importante no subir esto, cada dev debe crear el suyo
+venv/
+.venv/
+env/
+.env/
+
+# --- Variables de Entorno y Secretos ---
+# NUNCA subas tus claves o configuraciones secretas
+.env
+.env.local
+.env.*.local
+
+# --- Base de Datos (SQLite) ---
+# Si decides persistir datos localmente, no subas la DB
+*.sqlite3
+*.db
+
+# --- Distribución / Empaquetado ---
+dist/
+build/
+*.egg-info/
+
+# --- IDEs y Editores de Texto ---
+# Configuraciones locales de VS Code, PyCharm, etc.
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Sistema Operativo ---
+# Archivos basura de Mac y Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log
